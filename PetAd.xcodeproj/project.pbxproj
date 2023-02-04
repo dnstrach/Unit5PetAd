@@ -9,21 +9,28 @@
 /* Begin PBXBuildFile section */
 		D8BD1016298C0BBE00AA5EA4 /* AppDelegate.swift in Sources */ = {isa = PBXBuildFile; fileRef = D8BD1015298C0BBE00AA5EA4 /* AppDelegate.swift */; };
 		D8BD1018298C0BBE00AA5EA4 /* SceneDelegate.swift in Sources */ = {isa = PBXBuildFile; fileRef = D8BD1017298C0BBE00AA5EA4 /* SceneDelegate.swift */; };
-		D8BD101A298C0BBE00AA5EA4 /* ViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = D8BD1019298C0BBE00AA5EA4 /* ViewController.swift */; };
 		D8BD101D298C0BBE00AA5EA4 /* Main.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = D8BD101B298C0BBE00AA5EA4 /* Main.storyboard */; };
 		D8BD101F298C0BBF00AA5EA4 /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = D8BD101E298C0BBF00AA5EA4 /* Assets.xcassets */; };
 		D8BD1022298C0BBF00AA5EA4 /* LaunchScreen.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = D8BD1020298C0BBF00AA5EA4 /* LaunchScreen.storyboard */; };
+		D8BD1031298C0D2500AA5EA4 /* Ad.swift in Sources */ = {isa = PBXBuildFile; fileRef = D8BD1030298C0D2500AA5EA4 /* Ad.swift */; };
+		D8BD1033298C2C2D00AA5EA4 /* AdController.swift in Sources */ = {isa = PBXBuildFile; fileRef = D8BD1032298C2C2D00AA5EA4 /* AdController.swift */; };
+		D8BD1035298C2C6800AA5EA4 /* CategoryTableViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = D8BD1034298C2C6800AA5EA4 /* CategoryTableViewController.swift */; };
+		D8BD1037298C2C8500AA5EA4 /* AdTableViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = D8BD1036298C2C8500AA5EA4 /* AdTableViewController.swift */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXFileReference section */
 		D8BD1012298C0BBE00AA5EA4 /* PetAd.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = PetAd.app; sourceTree = BUILT_PRODUCTS_DIR; };
 		D8BD1015298C0BBE00AA5EA4 /* AppDelegate.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AppDelegate.swift; sourceTree = "<group>"; };
 		D8BD1017298C0BBE00AA5EA4 /* SceneDelegate.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = SceneDelegate.swift; sourceTree = "<group>"; };
-		D8BD1019298C0BBE00AA5EA4 /* ViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ViewController.swift; sourceTree = "<group>"; };
 		D8BD101C298C0BBE00AA5EA4 /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/Main.storyboard; sourceTree = "<group>"; };
 		D8BD101E298C0BBF00AA5EA4 /* Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Assets.xcassets; sourceTree = "<group>"; };
 		D8BD1021298C0BBF00AA5EA4 /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/LaunchScreen.storyboard; sourceTree = "<group>"; };
 		D8BD1023298C0BBF00AA5EA4 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		D8BD1029298C0BDE00AA5EA4 /* PetAd.entitlements */ = {isa = PBXFileReference; lastKnownFileType = text.plist.entitlements; path = PetAd.entitlements; sourceTree = "<group>"; };
+		D8BD1030298C0D2500AA5EA4 /* Ad.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = Ad.swift; sourceTree = "<group>"; };
+		D8BD1032298C2C2D00AA5EA4 /* AdController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AdController.swift; sourceTree = "<group>"; };
+		D8BD1034298C2C6800AA5EA4 /* CategoryTableViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = CategoryTableViewController.swift; sourceTree = "<group>"; };
+		D8BD1036298C2C8500AA5EA4 /* AdTableViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AdTableViewController.swift; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -56,15 +63,67 @@
 		D8BD1014298C0BBE00AA5EA4 /* PetAd */ = {
 			isa = PBXGroup;
 			children = (
-				D8BD1015298C0BBE00AA5EA4 /* AppDelegate.swift */,
-				D8BD1017298C0BBE00AA5EA4 /* SceneDelegate.swift */,
-				D8BD1019298C0BBE00AA5EA4 /* ViewController.swift */,
-				D8BD101B298C0BBE00AA5EA4 /* Main.storyboard */,
-				D8BD101E298C0BBF00AA5EA4 /* Assets.xcassets */,
-				D8BD1020298C0BBF00AA5EA4 /* LaunchScreen.storyboard */,
-				D8BD1023298C0BBF00AA5EA4 /* Info.plist */,
+				D8BD1029298C0BDE00AA5EA4 /* PetAd.entitlements */,
+				D8BD102D298C0C8E00AA5EA4 /* Model */,
+				D8BD102C298C0C8500AA5EA4 /* Controllers */,
+				D8BD102A298C0C3B00AA5EA4 /* Resources */,
+				D8BD102B298C0C7900AA5EA4 /* Storyboards */,
 			);
 			path = PetAd;
+			sourceTree = "<group>";
+		};
+		D8BD102A298C0C3B00AA5EA4 /* Resources */ = {
+			isa = PBXGroup;
+			children = (
+				D8BD1015298C0BBE00AA5EA4 /* AppDelegate.swift */,
+				D8BD1017298C0BBE00AA5EA4 /* SceneDelegate.swift */,
+				D8BD101E298C0BBF00AA5EA4 /* Assets.xcassets */,
+				D8BD1023298C0BBF00AA5EA4 /* Info.plist */,
+			);
+			path = Resources;
+			sourceTree = "<group>";
+		};
+		D8BD102B298C0C7900AA5EA4 /* Storyboards */ = {
+			isa = PBXGroup;
+			children = (
+				D8BD101B298C0BBE00AA5EA4 /* Main.storyboard */,
+				D8BD1020298C0BBF00AA5EA4 /* LaunchScreen.storyboard */,
+			);
+			path = Storyboards;
+			sourceTree = "<group>";
+		};
+		D8BD102C298C0C8500AA5EA4 /* Controllers */ = {
+			isa = PBXGroup;
+			children = (
+				D8BD102F298C0CA300AA5EA4 /* Model Controllers */,
+				D8BD102E298C0C9500AA5EA4 /* View Controllers */,
+			);
+			path = Controllers;
+			sourceTree = "<group>";
+		};
+		D8BD102D298C0C8E00AA5EA4 /* Model */ = {
+			isa = PBXGroup;
+			children = (
+				D8BD1030298C0D2500AA5EA4 /* Ad.swift */,
+			);
+			path = Model;
+			sourceTree = "<group>";
+		};
+		D8BD102E298C0C9500AA5EA4 /* View Controllers */ = {
+			isa = PBXGroup;
+			children = (
+				D8BD1034298C2C6800AA5EA4 /* CategoryTableViewController.swift */,
+				D8BD1036298C2C8500AA5EA4 /* AdTableViewController.swift */,
+			);
+			path = "View Controllers";
+			sourceTree = "<group>";
+		};
+		D8BD102F298C0CA300AA5EA4 /* Model Controllers */ = {
+			isa = PBXGroup;
+			children = (
+				D8BD1032298C2C2D00AA5EA4 /* AdController.swift */,
+			);
+			path = "Model Controllers";
 			sourceTree = "<group>";
 		};
 /* End PBXGroup section */
@@ -138,9 +197,12 @@
 			isa = PBXSourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
-				D8BD101A298C0BBE00AA5EA4 /* ViewController.swift in Sources */,
+				D8BD1037298C2C8500AA5EA4 /* AdTableViewController.swift in Sources */,
 				D8BD1016298C0BBE00AA5EA4 /* AppDelegate.swift in Sources */,
 				D8BD1018298C0BBE00AA5EA4 /* SceneDelegate.swift in Sources */,
+				D8BD1035298C2C6800AA5EA4 /* CategoryTableViewController.swift in Sources */,
+				D8BD1033298C2C2D00AA5EA4 /* AdController.swift in Sources */,
+				D8BD1031298C0D2500AA5EA4 /* Ad.swift in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -285,11 +347,12 @@
 			buildSettings = {
 				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
 				ASSETCATALOG_COMPILER_GLOBAL_ACCENT_COLOR_NAME = AccentColor;
+				CODE_SIGN_ENTITLEMENTS = PetAd/PetAd.entitlements;
 				CODE_SIGN_STYLE = Automatic;
 				CURRENT_PROJECT_VERSION = 1;
 				DEVELOPMENT_TEAM = 74AQA4M4HV;
 				GENERATE_INFOPLIST_FILE = YES;
-				INFOPLIST_FILE = PetAd/Info.plist;
+				INFOPLIST_FILE = PetAd/Resources/Info.plist;
 				INFOPLIST_KEY_UIApplicationSupportsIndirectInputEvents = YES;
 				INFOPLIST_KEY_UILaunchStoryboardName = LaunchScreen;
 				INFOPLIST_KEY_UIMainStoryboardFile = Main;
@@ -300,7 +363,7 @@
 					"@executable_path/Frameworks",
 				);
 				MARKETING_VERSION = 1.0;
-				PRODUCT_BUNDLE_IDENTIFIER = "Dominique-Strachan.PetAd";
+				PRODUCT_BUNDLE_IDENTIFIER = com.DS.PetAd;
 				PRODUCT_NAME = "$(TARGET_NAME)";
 				SWIFT_EMIT_LOC_STRINGS = YES;
 				SWIFT_VERSION = 5.0;
@@ -313,11 +376,12 @@
 			buildSettings = {
 				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
 				ASSETCATALOG_COMPILER_GLOBAL_ACCENT_COLOR_NAME = AccentColor;
+				CODE_SIGN_ENTITLEMENTS = PetAd/PetAd.entitlements;
 				CODE_SIGN_STYLE = Automatic;
 				CURRENT_PROJECT_VERSION = 1;
 				DEVELOPMENT_TEAM = 74AQA4M4HV;
 				GENERATE_INFOPLIST_FILE = YES;
-				INFOPLIST_FILE = PetAd/Info.plist;
+				INFOPLIST_FILE = PetAd/Resources/Info.plist;
 				INFOPLIST_KEY_UIApplicationSupportsIndirectInputEvents = YES;
 				INFOPLIST_KEY_UILaunchStoryboardName = LaunchScreen;
 				INFOPLIST_KEY_UIMainStoryboardFile = Main;
@@ -328,7 +392,7 @@
 					"@executable_path/Frameworks",
 				);
 				MARKETING_VERSION = 1.0;
-				PRODUCT_BUNDLE_IDENTIFIER = "Dominique-Strachan.PetAd";
+				PRODUCT_BUNDLE_IDENTIFIER = com.DS.PetAd;
 				PRODUCT_NAME = "$(TARGET_NAME)";
 				SWIFT_EMIT_LOC_STRINGS = YES;
 				SWIFT_VERSION = 5.0;
